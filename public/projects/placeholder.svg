@@ -1,0 +1,34 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#FFF5F2"/>
+  
+  <!-- Browser Chrome -->
+  <rect width="1200" height="60" fill="#568F87"/>
+  <circle cx="30" cy="30" r="8" fill="#FFF5F2"/>
+  <circle cx="60" cy="30" r="8" fill="#FFF5F2"/>
+  <circle cx="90" cy="30" r="8" fill="#FFF5F2"/>
+  
+  <!-- Content Area -->
+  <rect x="50" y="120" width="500" height="40" rx="8" fill="#F5BABB"/>
+  <rect x="50" y="180" width="700" height="20" rx="4" fill="#568F87" opacity="0.3"/>
+  <rect x="50" y="220" width="650" height="20" rx="4" fill="#568F87" opacity="0.3"/>
+  <rect x="50" y="260" width="600" height="20" rx="4" fill="#568F87" opacity="0.3"/>
+  
+  <!-- Image Placeholder -->
+  <rect x="800" y="120" width="350" height="250" rx="16" fill="#568F87" opacity="0.2"/>
+  <path d="M900 200 L950 260 L1000 210 L1050 270" stroke="#568F87" stroke-width="4" fill="none" opacity="0.5"/>
+  <circle cx="900" cy="170" r="15" fill="#F5BABB"/>
+  
+  <!-- Bottom Content -->
+  <rect x="50" y="450" width="300" height="150" rx="16" fill="#568F87" opacity="0.1"/>
+  <rect x="400" y="450" width="300" height="150" rx="16" fill="#568F87" opacity="0.1"/>
+  <rect x="750" y="450" width="300" height="150" rx="16" fill="#568F87" opacity="0.1"/>
+  
+  <!-- Text -->
+  <text x="600" y="700" font-family="Arial, sans-serif" font-size="24" fill="#064232" text-anchor="middle" font-weight="bold">
+    Mahabbatussholihin Tour &amp; Travel
+  </text>
+  <text x="600" y="740" font-family="Arial, sans-serif" font-size="16" fill="#568F87" text-anchor="middle">
+    Add your project screenshot here
+  </text>
+</svg>
