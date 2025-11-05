@@ -15,7 +15,7 @@ const projects = [
     description:
       "A comprehensive tour and travel website built with Next.js featuring responsive design, seamless booking flow, and integrated CMS for easy content management. Includes tour packages, testimonials, and real-time availability checking.",
     technologies: ["Next.js", "Sanity CMS", "TailwindCSS", "Vercel"],
-    link: "#",
+    link: "https://travel.mahabbatussholihin.com",
     image: "/projects/mahabbatussholihin.jpg", // Add your project screenshot here
   },
 ];
@@ -136,8 +136,8 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Button */}
-                <div className="pt-4">
+                {/* Buttons */}
+                <div className="pt-4 flex flex-wrap gap-4">
                   <a
                     href={project.link}
                     target="_blank"
@@ -146,6 +146,12 @@ export default function Projects() {
                   >
                     <FiExternalLink className="text-lg" />
                     View Live
+                  </a>
+                  <a
+                    href={`/projects/${project.id}`}
+                    className="bg-transparent border-2 border-mutedAccent text-mutedAccent hover:bg-mutedAccent hover:text-background inline-flex transform items-center gap-2 rounded-lg px-6 py-3 font-semibold transition-all duration-300 hover:scale-105"
+                  >
+                    Detail Project
                   </a>
                 </div>
               </div>
